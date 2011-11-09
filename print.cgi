@@ -40,7 +40,7 @@ $data =~ s/\n//sgi;
 
 ($maintype, $subtype) = split("/", lc($data));
 
-$res = "UNSUPPFORM";;
+$res = "UNSUPPFORM";
 
 if ($maintype eq "image") {
 $image = Image::Magick->new;
